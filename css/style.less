@@ -1,0 +1,92 @@
+body{
+	background-color: @body-bg-color;
+}
+
+
+@media all and (min-width: 700px){
+	.wrapper {
+			width: 900px;
+			float: left;
+			overflow: hidden;
+			margin:  0px auto;
+		 }
+	.wrapper .top{
+		width: 900px;
+		float: left;
+		overflow: hidden;
+	}
+	.wrapper .features{
+		width: 900px;
+		float: left;
+		overflow: hidden;
+	}
+	.wrapper .footer{
+		width: 900px;
+		float: left;
+		overflow: hidden;
+	}
+}
+
+@media all and (max-width: 699px) and (min-width: 420px){
+	.wrapper {
+		width: 600px;
+		float: left;
+		overflow: hidden;
+	 }
+	 .wrapper .top{
+		width: 600px;
+		float: left;
+		overflow: hidden;
+	}
+	.wrapper .features{
+		width: 600px;
+		float: left;
+		overflow: hidden;
+	}
+	.wrapper .footer{
+		width: 600px;
+		float: left;
+		overflow: hidden;
+	}
+}
+
+
+@media all and (max-width: 419px){
+	.wrapper {
+		width: 300px;
+		float: left;
+		overflow: hidden;
+	 }
+	 .wrapper .top{
+		width: 300px;
+		float: left;
+		overflow: hidden;
+	}
+	.wrapper .features{
+		width: 300px;
+		float: left;
+		overflow: hidden;
+	}
+	.wrapper .footer{
+		width: 300px;
+		float: left;
+		overflow: hidden;
+	}
+}
+
+.features ul li{ 
+	display: block-inline;
+	float: left; 
+	width: @feature-width;
+	overflow: hidden;
+}
+
+.feature{
+	overflow: hidden; 
+	float: left;
+	width: 160px;
+}
+
+.feature img{
+		width: 80px; float:left;
+	}
